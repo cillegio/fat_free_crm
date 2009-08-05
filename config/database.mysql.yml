@@ -23,10 +23,10 @@
 development:
   adapter: mysql
   encoding: utf8
-  database: fat_free_crm_development
+  database: fat_free_crm
   pool: 5
   username: root
-  password:
+  password: nifigasebe
   socket: /tmp/mysql.sock
   uuid:
 
@@ -36,19 +36,19 @@ development:
 test:
   adapter: mysql
   encoding: utf8
-  database: fat_free_crm_test
+  database: fat_free_crm
   pool: 5
   username: root
-  password:
+  password: nifigasebe
   socket: /tmp/mysql.sock
   uuid:
 
 production:
   adapter: mysql
   encoding: utf8
-  database: fat_free_crm_production
+  database: fat_free_crm
   pool: 5
   username: root
-  password: 
+  password: nifigasebe
   socket: /tmp/mysql.sock
   uuid:
